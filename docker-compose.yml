@@ -1,0 +1,14 @@
+version: '3'
+services:
+  scrapydweb:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      USERNAME: "admin"
+      PASSWORD: "admin"
+      SCRAPYD_SERVERS: "222.222.222.222:6800"
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+

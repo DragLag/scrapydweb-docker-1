@@ -72,7 +72,7 @@ SCRAPY_PROJECTS_DIR = ''
 #   - or if ScrapydWeb fails to parse the string format passed in,
 #   - it's recommended to pass in a tuple of 5 elements.
 #   - e.g. ('', '', '127.0.0.1', '6800', '') or ('username', 'password', 'localhost', '6801', 'group')
-# SCRAPYD_SERVERS = [
+#SCRAPYD_SERVERS = [
 #     '127.0.0.1:6800',
 #     # 'username:password@localhost:6801#group',
 #     ('username', 'password', 'localhost', '6801', 'group'),
